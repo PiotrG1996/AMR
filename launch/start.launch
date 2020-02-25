@@ -1,0 +1,6 @@
+<launch>
+  <!-- My Package launch file -->
+  <node pkg="pg_192167_prj" type="pg_192167_prj.py" name="final_project" output="screen">
+  </node>
+  
+</launch>

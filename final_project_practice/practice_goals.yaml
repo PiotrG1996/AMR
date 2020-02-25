@@ -1,0 +1,152 @@
+topic_name: "/goals"
+goals:
+  0:
+    x: 2.47
+    y: 0
+    z: 0
+    reward: 1
+  1:
+    x: 15
+    y: 15
+    z: 0
+    reward: 1
+  2:
+    x: 6
+    y: 3
+    z: 0
+    reward: 75
+  3:
+    x: 8.147
+    y: -6.121
+    z: 0
+    reward: 100
+  4:
+    x: 4.5
+    y: -3.5
+    z: 0
+    reward: 50
+  5:
+    x: 1.1
+    y: -5.643
+    z: 0
+    reward: 50
+  6:
+    x: 0.9
+    y: -8.051
+    z: 0
+    reward: 75
+  7:
+    x: 0.1
+    y: -10.242
+    z: 0
+    reward: 10
+  8:
+    x: -4
+    y: -9.3
+    z: 0
+    reward: 40
+  9:
+    x: -4.3
+    y: -14.23
+    z: 0
+    reward: 45
+  10:
+    x: -7.45
+    y: -12.34
+    z: 0
+    reward: 40
+  11:
+    x: -9
+    y: -13.85
+    z: 0
+    reward: 40
+  12:
+    x: -10
+    y: -16.95
+    z: 0
+    reward: 80
+  13:
+    x: -4.5
+    y: 5
+    z: 0
+    reward: 250
+  14:
+    x: -3.25
+    y: 7
+    z: 0
+    reward: 100
+  15:
+    x: 3.253
+    y: 4.55
+    z: 0
+    reward: 120
+  16:
+    x: 5.52
+    y: 6.52
+    z: 0
+    reward: 75
+  17:
+    x: 8.5
+    y: 6.121
+    z: 0
+    reward: 75
+  18:
+    x: 6.5
+    y: 7.5
+    z: 0
+    reward: 50
+  20:
+    x: 7.5
+    y: 0.7
+    z: 0
+    reward: 100
+  21:
+    x: 0
+    y: 0
+    z: 0
+    reward: 50
+  22:
+    x: -6.3
+    y: 5.2
+    z: 0
+    reward: 100
+  23:
+    x: -5
+    y: 6.5
+    z: 0
+    reward: 75
+  24:
+    x: -3.02
+    y: 8.1
+    z: 0
+    reward: 75
+  25:
+    x: -4.4
+    y: -17
+    z: 0
+    reward: 175
+  26:
+    x: 10
+    y: -2.2
+    z: 0
+    reward: 150
+  27:
+    x: 3.1
+    y: 3.5
+    z: 0
+    reward: 80
+  28:
+    x: -4
+    y: -3.5
+    z: 0
+    reward: 50
+  29:
+    x: 6.9
+    y: -5.1
+    z: 0
+    reward: 80
+  30:
+    x: 2
+    y: 1
+    z: 0
+    reward: 55
