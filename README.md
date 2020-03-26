@@ -4,17 +4,17 @@ Author: Piotr Gapski
 
 This project refers to the examples from ROS [Documentation](http://wiki.ros.org/Documentation).
 
-> This repository provides final program in the course - Autonomous Mobile Robots.
-> The main purpose of the project is to reach randomly located points while
+> This repository contains the final program in the course - Autonomous Mobile Robots.
+> The main purpose of this project is to reach randomly located points while
 > robot is moving autonomously without any help in control. Algorithm is
 > considered to work properly regardless of spawned map. Gazebo is mapping
-> the real world so it simulates the reality.
+> the real world so it tries to simulate the reality.
 
 ## Getting Started
 
-To launch this project following commands are necessary:
+In order to launch this project the following commands are necessary:
 
-### Launch gazebo
+### Run ROScore
 
 Roscore is a collection of nodes and is required in order to communicate between them in ROS.
 
@@ -22,7 +22,7 @@ Roscore is a collection of nodes and is required in order to communicate between
 $ roscore
 ```
 
-### Spawn the world
+### Launch Gazebo
 
 This command spawns turtlebot in an empty world.
 
@@ -53,7 +53,7 @@ $ roslaunch goal_publisher goal_publisher.launch config_file:=/home/piotr/catkin
 $ roslaunch pg_192167_prj start.launch
 ```
 
-## Description of topics
+## Description of the topics
 
 | Topic                  | Message                     |
 | ---------------------- | --------------------------- |
@@ -73,11 +73,11 @@ $ roslaunch pg_192167_prj start.launch
 
 #### 1. goal_subscriber
 
-This file includes class "goal_subscriber" with functions to subscribe goals and recive messages whether an array with goals has been sent.
+This file includes a class "goal_subscriber" with functions to subscribe goals and recive messages whether an array with goals has been sent.
 
 #### 2. vel_publisher
 
-This file includes class "vel_publisher" with functions to publish a velocity of a robot. There are two different types of speed and one function to stop the robot.
+This file includes a class "vel_publisher" with functions to publish the velocity of a robot. There are two different types of speed and a one function to stop the robot.
 
 - Linear motion - defines movement of the robot in a straight line.
 - Angular velocity - defines the angular speed of the robot.
@@ -91,10 +91,10 @@ This file consists functions necessary to calculate a distance between actual po
 The most complex part of this project.
 A laser scanner is devided into 5 regions.
 
-There are 3 possible states (pertains to a finite-state machine):
+There are 3 possible states (pertains to the finite-state machine):
 
 - Find an obstacle on the way to the goal.
-- Turn left (if obstacle is detected)
+- Turn left (if an obstacle is detected)
 - Follow the obstacle (untill coordination is possible to achive)
 
 Every combination is defined in an "if statement". Laser scanner checks regions and returns the distance value between an obstacle and the robot. If the laser doesn't detect any obstacle then starts focusing on the goal.
