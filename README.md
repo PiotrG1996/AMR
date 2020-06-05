@@ -1,8 +1,9 @@
-# Final Project AMR
+# Final Project Autonomous Mobile Robots
 
 Author: Piotr Gapski
 
 This project refers to the examples from ROS [Documentation](http://wiki.ros.org/Documentation).
+The source code doesn't include any third-party library.
 
 > This repository contains the final program in the course - Autonomous Mobile Robots.
 > The main purpose of this project is to reach randomly located points while
