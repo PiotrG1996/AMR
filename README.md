@@ -5,13 +5,11 @@ Author: Piotr Gapski
 This project refers to the examples from ROS [Documentation](http://wiki.ros.org/Documentation).
 The source code doesn't include any third-party library.
 
-<p text-align="justify"
 > This repository contains the final program in the course - Autonomous Mobile Robots.
 > The main purpose of this project is to reach randomly located points while
 > robot is moving autonomously without any help in control. Algorithm is
 > considered to work properly regardless of spawned map. Gazebo is mapping
 > the real world so it tries to simulate the reality.
-</p>
 
 <p align="center">
 <img src="images/presentation.gif">
