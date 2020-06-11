@@ -12,8 +12,10 @@ The source code doesn't include any third-party library.
 > the real world so it tries to simulate the reality.
 
 <p align="center">
-<img width="100%" height="50%" src="images/presentation.gif">
+<img width="100%" src="images/presentation.gif">
 </p>
+</br>
+
 
 ## Getting Started
 
@@ -133,8 +135,6 @@ Description of its work is included in the presentation
 
 ### Presentation
 
-Click this [link](https://slides.com/gapa060/deck-b592b6)
-
 ![new](images/1.png)
 ![new](images/2.png)
 ![new](images/3.png)
@@ -160,7 +160,7 @@ Click this [link](https://slides.com/gapa060/deck-b592b6)
 | chmod +x <name_of_python_file.py>                                                                                                     |
 | roslaunch <package_name> <launch_file_name>                                                                                           |
 | rosnode list                                                                                                                          |
-| rosnode info /<name>                                                                                                                  |
+| rosnode info / <name>                                                                                                                  |
 | rosmsg show <name_of_the_message>                                                                                                     |
 | rosmsg show geometry_msgs/Twist                                                                                                       |
 | rostopic list                                                                                                                         |
