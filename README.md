@@ -12,7 +12,7 @@ The source code doesn't include any third-party library.
 > the real world so it tries to simulate the reality.
 
 <p align="center">
-<img width="100%" src="images/presentation.gif">
+<img width="100%" height="50%" src="images/presentation.gif">
 </p>
 
 ## Getting Started
