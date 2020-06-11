@@ -11,6 +11,7 @@ The source code doesn't include any third-party library.
 > considered to work properly regardless of spawned map. Gazebo is mapping
 > the real world so it tries to simulate the reality.
 
+</br>
 <p align="center">
 <img width="100%" src="images/presentation.gif">
 </p>
