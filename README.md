@@ -132,7 +132,7 @@ $ source /home/piotr/catkin_ws/devel/setup.bash
 - FSM
 - Bug 2
 
-Description of its work is included in the presentation
+Description of my work is included in the presentation
 
 ### Presentation
 
