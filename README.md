@@ -18,7 +18,10 @@ The source code doesn't include any third-party library.
 </br>
 
 
+
 ## Getting Started
+
+[Installation Guide](http://wiki.ros.org/ROS/Installation)
 
 In order to launch this project the following commands are necessary:
 
