@@ -13,7 +13,7 @@ The source code doesn't include any third-party library.
 
 </br>
 <p align="center">
-<img width="100%" src="images/presentation.gif">
+<img width="100%" height="500px" src="images/presentation.gif">
 </p>
 </br>
 
