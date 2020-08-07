@@ -2,7 +2,7 @@
 
 Author: Piotr Gapski
 
-To jump into this project refer to the examples from the ROS [Documentation](http://wiki.ros.org/Documentation).
+To jump into this project, refer first to the examples from the ROS [Documentation](http://wiki.ros.org/Documentation).
 The source code doesn't include any third-party library.
 
 > This repository contains the final program in the course - Autonomous Mobile Robots.
