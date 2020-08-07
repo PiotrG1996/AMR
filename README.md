@@ -2,14 +2,14 @@
 
 Author: Piotr Gapski
 
-This project refers to the examples from ROS [Documentation](http://wiki.ros.org/Documentation).
+To jump into this project refer to the examples from the ROS [Documentation](http://wiki.ros.org/Documentation).
 The source code doesn't include any third-party library.
 
 > This repository contains the final program in the course - Autonomous Mobile Robots.
-> The main purpose of this project is to reach randomly located points while
-> robot is moving autonomously without any help in control. Algorithm is
-> considered to work properly regardless of spawned map. Gazebo is mapping
-> the real world so it tries to simulate the reality.
+> The main purpose of this project is to reach randomly located points by 
+> autonomously moving robot. without any help in control. Implemented algorithms are
+> considered to work properly regardless of spawned map. Gazebo attepmts to simulate
+> the real world in a real physics conditions.
 
 </br>
 <p align="center">
@@ -23,11 +23,11 @@ The source code doesn't include any third-party library.
 
 [Installation Guide](http://wiki.ros.org/ROS/Installation)
 
-In order to launch this project the following commands are necessary:
+In order to launch this project the following commands are necessary to type in:
 
 ### Run ROScore
 
-Roscore is a collection of nodes and is required in order to communicate between them in ROS.
+Roscore is a collection of nodes and is required in order to communicate with them in ROS.
 
 ```sh
 $ roscore
@@ -51,7 +51,7 @@ $ rosrun gazebo_ros spawn_model -file /home/piotr/catkin_ws/src/pg-192167_tier4/
 
 ### Publish goals
 
-A publisher is a node that sends messages to a topic. It can be used to communicate with or control other nodes.
+A publisher is a node that sends messages to the topic. It can be used for communication purposes or in nodes controlling.
 
 ```sh
 $ roslaunch goal_publisher goal_publisher.launch config_file:=<project_path>/final_project_practice/practice_goals.yaml
@@ -84,18 +84,18 @@ $ roslaunch pg_192167_prj start.launch
 
 #### 1. goal_subscriber
 
-This file includes a class "goal_subscriber" with functions to subscribe goals and recive messages whether an array with goals has been sent.
+This file includes a class "goal_subscriber" with functions to subscribe goals and recive messages. Lastly it checks whether an array with goals has been sent.
 
 #### 2. vel_publisher
 
-This file includes a class "vel_publisher" with functions to publish the velocity of a robot. There are two different types of speed and a one function to stop the robot.
+This file includes a class "vel_publisher" with functions to publish the velocity of a robot. There are two different types of speed and one function to stop the robot.
 
 - Linear motion - defines movement of the robot in a straight line.
 - Angular velocity - defines the angular speed of the robot.
 
 #### 3. goto_point
 
-This file consists functions necessary to calculate a distance between actual position of the robot and the following goal. A function "move" is responsible for robots movement till the goal is reached.
+This file consists functions necessary to calculate distance between actual position of the robot and the following goal. Function "move" is responsible for robot's movement untill the goal is reached.
 
 #### 4. follow_obstacle
 
@@ -108,11 +108,11 @@ There are 3 possible states (pertains to the finite-state machine):
 - Turn left (if an obstacle is detected)
 - Follow the obstacle (untill coordination is possible to achive)
 
-Every combination is defined in an "if statement". Laser scanner checks regions and returns the distance value between an obstacle and the robot. If the laser doesn't detect any obstacle then starts focusing on the goal.
+Every combination is defined in "if statement". Laser scanner checks regions and returns the distance value between an obstacle and the robot. If the laser doesn't detect any obstacle, then it starts focusing on the goal once again.
 
 #### 5. pg_192167_prj
 
-In this main file all ccreated classes are included. Program checks what is the recent state of the robot and runs in a while loop untill all goals are reached. If there is an obstacle in front of the robot, it goes in a machine state. (timer provides auto reset if the obstacle is impossible to surround) Robot is automatically calculating the closest obstacle. If nothing is in front of the robot, it moves forward. Otherwise robot is stucked in a loop and will be reset after certain time. Every goal is reached in distane of 0.5m, robot stops and calculates new coordinates.
+This main file includes all created classes. Program checks what is the recent state of the robot and runs in a while loop untill all goals are reached. If there is an obstacle in front of the robot, it changes its present state into object detection. (timer provides auto reset if the obstacle is impossible to pass by) The robot automatically calculates the closest obstacle. If there is nothing in front of the robot, it moves constantly forward. Otherwise robot maybe stucked in a infinity loop and will be reset after a certain period of time. Every goal is reached in precision of 0.5m,at this time robot stops and afterwards moves to the next coordinates from array.
 
 ### Common error
 
