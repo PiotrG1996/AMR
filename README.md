@@ -9,7 +9,7 @@ The source code doesn't include any third-party library.
 > The main purpose of this project is to reach randomly located points by 
 > autonomously moving robot. without any help in control. Implemented algorithms are
 > considered to work properly regardless of spawned map. Gazebo attepmts to simulate
-> the real world in a real physics conditions.
+> the real world in real physics conditions.
 
 </br>
 <p align="center">
