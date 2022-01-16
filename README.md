@@ -154,7 +154,7 @@ Description of my work is included in the presentation
 
 ### All commands
 
-| Commands                                                                                                                              |
+| Command List                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------- |
 | roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch                                                                             |
 | rosrun gazebo_ros spawn_model -file ~/catkin_ws/src/ml-161927_tier3/data/model.sdf -sdf -x 2 -y 1 -model mini_project                 |
