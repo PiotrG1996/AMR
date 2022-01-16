@@ -126,6 +126,7 @@ Solution:
 ```sh
 $ source <path>/catkin_ws/devel/setup.bash
 
+# Example
 $ source /home/piotr/catkin_ws/devel/setup.bash
 
 ```
