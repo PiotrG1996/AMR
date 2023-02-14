@@ -8,7 +8,7 @@ The source code doesn't include any third-party library.
 > This repository contains the final program in the course - Autonomous Mobile Robots.
 > The main purpose of this project is to reach randomly located points by 
 > autonomously moving robot. without any help in control. Implemented algorithms are
-> considered to work properly regardless of spawned map. Gazebo attepmts to simulate
+> considered to work properly regardless of spawned map. Gazebo attempts to simulate
 > the real world in real physics conditions.
 
 </br>
