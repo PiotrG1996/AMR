@@ -112,7 +112,7 @@ Every combination is defined in "if statement". Laser scanner checks regions and
 
 #### 5. pg_192167_prj
 
-This main file includes all created classes. Program checks what is the recent state of the robot and runs in a while loop untill all goals are reached. If there is an obstacle in front of the robot, it changes its present state into object detection. (timer provides auto reset if the obstacle is impossible to pass by) The robot automatically calculates the closest obstacle. If there is nothing in front of the robot, it moves constantly forward. Otherwise robot maybe stucked in a infinity loop and will be reset after a certain period of time. Every goal is reached in precision of 0.5m,at this time robot stops and afterwards moves to the next coordinates from array.
+This main file includes all created classes. Program checks what is the recent state of the robot and runs in a while loop untill all goals are reached. If there is an obstacle in front of the robot, it changes its present state into obstacle detection. (timer provides auto reset if the obstacle is impossible to pass by) The robot automatically calculates the closest obstacle. If there is nothing in front of the robot, it moves constantly forward. Otherwise robot maybe stucked in a infinity loop and will be reset after a certain period of time. Every goal is reached in precision of 0.5m,at this time robot stops and afterwards moves to the next coordinates from array.
 
 ### Common error
 
